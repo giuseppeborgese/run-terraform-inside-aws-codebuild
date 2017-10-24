@@ -32,6 +32,11 @@ This will trigger the creation of the security group in your environment.
 
 Take a look to the CloudWatch logs and verify that everything is green in codebuild
 
+The video for the steps 1 and 2 is this
+
+[![Run Terraform inside AWS Codebuild part 1/2 creation](https://img.youtube.com/vi/sXTRS9eKlHA/0.jpg)](https://www.youtube.com/watch?v=sXTRS9eKlHA)
+
+
 3 - destroy the security group running a terraform destroy
 ----------------------------------------------------------
 
