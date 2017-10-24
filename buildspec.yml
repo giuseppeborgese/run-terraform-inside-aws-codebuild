@@ -30,7 +30,7 @@ phases:
       - . /tmp/aws_cred_export.txt && terraform init
   build:
     commands:
-      - . /tmp/aws_cred_export.txt &&  python runterraform.js.py $region $datapart $applicationname $destroy
+      - . /tmp/aws_cred_export.txt &&  python runterraform.js.py $region $applicationname $destroy
       - echo "Post apply build"
   post_build:
     commands:
