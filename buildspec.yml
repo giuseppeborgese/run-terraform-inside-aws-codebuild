@@ -21,7 +21,7 @@ phases:
       - cd terraform-code
       - echo "terraform { " >> provider-output-backend.tf
       - echo "   backend \"s3\" { " >> provider-output-backend.tf
-      - echo "   bucket = \"$datapart.$region.terraform-state-software-giuseppe\"" >> provider-output-backend.tf
+      - echo "   bucket = \"$datapart.$region.terraform-state-software\"" >> provider-output-backend.tf
       - echo "   key    = \"$applicationname/terraform.tfstate\"" >> provider-output-backend.tf
       - echo "   region = \"$region\"" >> provider-output-backend.tf
       - echo "  }" >> provider-output-backend.tf

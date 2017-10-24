@@ -10,6 +10,12 @@
         }
   },
   "Resources" : {
+      "S3StateAndSoftware": {
+  					"Type" : "AWS::S3::Bucket",
+  					"Properties" : {
+  								"BucketName" : { "Fn::Join" : [ ".", [ { "Ref" : "AWS::StackName" }, { "Ref" : "AWS::Region" } , "terraform-state-software" ] ] }
+  					}
+  		},
       "Adminrole": {
 				"Type": "AWS::IAM::Role",
 			  "Properties": {
