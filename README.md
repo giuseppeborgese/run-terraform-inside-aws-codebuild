@@ -49,3 +49,7 @@ The video for the steps 1 and 2 is this
 
 1. empty the bucket
 2. delete the cloudformation template
+
+The video for the steps 3 and 4 is this
+
+[![Run Terraform inside AWS Codebuild part 2/2 destroy and cleanup](https://img.youtube.com/vi/OXrfUhEK2yQ/0.jpg)](https://www.youtube.com/watch?v=OXrfUhEK2yQ)
