@@ -1,12 +1,12 @@
 Why Run Terraform inside AWS Codebuild
 ==================================
 
-1. Every person in the company can create infrastructure using Terraform and without any configuration in their own laptop.
-2. You can provide a web interface to use Terraform and it can used without any knowledges
+1. Every person in the company can create infrastructure using Terraform, without any configuration in their own laptop.
+2. You can provide a web interface to use Terraform and anyone in the company can create infrastructures
 3. All terraform output logs are saved in Cloudwatch
 4. You can run by schedule
 5. You can run with an hook every time the code changes
-6. You don’t need any infrastructure to run, no EC2 virtual machines no fix cost. You pay only for the minutes that you use
+6. You don’t need any infrastructure to run, no EC2 virtual machines no fix cost. You pay only for minutes you use
 7. You can build a small orchestrator running for example a python script before and after the terraform run
 
 Steps for this example
